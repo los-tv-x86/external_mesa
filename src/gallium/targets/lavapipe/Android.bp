@@ -20,7 +20,7 @@ package {
 }
 
 cc_library_shared {
-    name: "vulkan.lvp",
+    name: "vulkan.lvpaosp",
     host_supported: true,
     defaults: [
         "mesa_common_defaults",
