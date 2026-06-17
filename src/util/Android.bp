@@ -141,7 +141,6 @@ cc_library_static {
         "u_process.c",
         "u_qsort.cpp",
         "rwlock.c",
-        "sha1/sha1.c",
         "ralloc.c",
         "rand_xor.c",
         "rb_tree.c",
