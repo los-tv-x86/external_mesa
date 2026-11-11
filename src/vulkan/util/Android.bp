@@ -30,6 +30,18 @@ python_binary_host {
     ],
 }
 
+// AOSP 17 name for the ICD JSON generator (device/google/cuttlefish uses it).
+python_binary_host {
+    name: "vk_icd_py_binary",
+    main: "vk_icd_gen.py",
+    srcs: [
+        "vk_icd_gen.py",
+    ],
+    libs: [
+        "mako",
+    ],
+}
+
 python_binary_host {
     name: "vk_cmd_queue_gen",
     main: "vk_cmd_queue_gen.py",

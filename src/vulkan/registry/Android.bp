@@ -23,3 +23,9 @@ filegroup {
     name: "mesa_vulkan_xml",
     srcs: ["vk.xml"],
 }
+
+// AOSP 17 name for the same registry (device/google/cuttlefish uses it).
+filegroup {
+    name: "vk_api_xml",
+    srcs: ["vk.xml"],
+}
